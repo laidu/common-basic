@@ -26,10 +26,6 @@
         <doxia-module-markdown.version>1.7</doxia-module-markdown.version>
         <maven-project-info-reports-plugin.version>2.9</maven-project-info-reports-plugin.version>
 
-        <!--项目基础依赖配置-->
-        <lombok.version>1.16.18</lombok.version>
-        <logback.version>1.2.3</logback.version>
-
         <!--test-->
         <junit4.version>4.12</junit4.version>
         <junit.version>5.0.0</junit.version>
@@ -39,29 +35,7 @@
 
     <dependencies>
 
-        <!--通过注解简化代码-->
-        <dependency>
-            <groupId>org.projectlombok</groupId>
-            <artifactId>lombok</artifactId>
-            <version>${lombok.version}</version>
-        </dependency>
 
-        <!--日志平台-->
-        <dependency>
-            <groupId>ch.qos.logback</groupId>
-            <artifactId>logback-core</artifactId>
-            <version>${logback.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>ch.qos.logback</groupId>
-            <artifactId>logback-classic</artifactId>
-            <version>${logback.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>ch.qos.logback</groupId>
-            <artifactId>logback-access</artifactId>
-            <version>${logback.version}</version>
-        </dependency>
 
         <!-- tag::tests[] -->
 
